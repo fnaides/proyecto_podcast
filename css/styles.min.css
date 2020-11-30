@@ -1,0 +1,298 @@
+#soporte5, .diago1 h2, footer h3 {
+  text-align: center;
+}
+
+.cont {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 320px;
+}
+
+h1 {
+  font-family: IBMPlexSans;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+  display: inline-block;
+  margin-left: 16px;
+  margin-top: 29px;
+  margin-bottom: 16px;
+  width: 250px;
+  height: 84px;
+}
+
+h2 {
+  font-family: IBMPlexSans;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+  display: inline-block;
+  margin-left: 16px;
+}
+
+p {
+  font-family: IBMPlexMono;
+  font-size: 14px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: auto;
+  width: 288px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navegacion li {
+  list-style: none;
+  height: 28px;
+  padding: 12px;
+  background-color: #0000EC;
+}
+
+.navegacion a {
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.seccion2 h2 {
+  margin-bottom: 21px;
+}
+
+.podcast {
+  display: block;
+  margin: 11px;
+  width: 94%;
+}
+
+.foto3 {
+  display: block;
+  margin-top: -95.5px;
+  margin-bottom: 27px;
+  z-index: 3;
+  max-width: 100%;
+  width: 360px;
+  height: 519px;
+}
+
+.foto4 {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  width: 320px;
+  height: 243px;
+}
+
+.foto5 {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  width: 104px;
+  height: 104px;
+  margin-top: 49px;
+  margin-bottom: 13px;
+}
+
+#soporte5 {
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 24px;
+  color: #060A24;
+  letter-spacing: 0;
+}
+
+.boton1 {
+  background-color: #00F3BB;
+  width: 288px;
+  height: 48px;
+  /*margin-left: 16px;
+    margin-right: 16px;*/
+  margin: auto;
+  margin-top: 36px;
+  margin-bottom: 24px;
+}
+
+.boton1 a {
+  display: block;
+  font-family: IBMPlexMono-Medium;
+  font-size: 16px;
+  background-color: #00F3BB;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  transition: background-color .5s;
+  transition: color .5s;
+  padding-right: 96px;
+  padding-left: 96px;
+}
+
+.boton1 a:hover {
+  background-color: #0000FE;
+  color: #FFFFFF;
+}
+
+.boton2 {
+  background-color: #00F3BB;
+  width: 288px;
+  height: 48px;
+  /*margin-left: 16px;
+    margin-right: 16px;*/
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 67px;
+}
+
+.boton2 a {
+  display: block;
+  font-family: IBMPlexMono-Medium;
+  font-size: 16px;
+  background-color: #00F3BB;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  transition: background-color .5s;
+  transition: color .5s;
+  padding-right: 43px;
+  padding-left: 43px;
+}
+
+.boton2 a:hover {
+  background-color: #0000FE;
+  color: #FFFFFF;
+}
+
+.span1 {
+  text-decoration: line-through;
+}
+
+.diago h2 {
+  color: #FFFFFF;
+  margin-top: 64px;
+  margin-bottom: 10px;
+}
+
+.diago {
+  clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+  background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  height: 1203.5px;
+  position: relative;
+  z-index: -1;
+}
+
+.seccion3 h2 {
+  margin-bottom: 8px;
+}
+
+.seccion4 h2 {
+  margin-top: 54px;
+  margin-bottom: 14px;
+}
+
+.seccion5 h2 {
+  margin-top: 48px;
+  margin-bottom: -12px;
+}
+
+.diago1 h2 {
+  color: #FFFFFF;
+  margin-top: 64px;
+  margin-bottom: 36px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.diago1 {
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  height: 341px;
+  margin-top: 42px;
+}
+
+footer h3 {
+  font-family: IBMPlexMono;
+  font-size: 14px;
+  color: #060A24 100%;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    width: 100%;
+  }
+  header .logo1 {
+    margin-left: 66px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    width: 10%;
+  }
+  header .logo {
+    width: 36px;
+    height: 36px;
+  }
+  header .navegacion {
+    /*margin-left: 465px;*/
+    margin-right: 66px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  header .navegacion li {
+    background-color: #FFFFFF;
+    display: inline;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  header .navegacion a {
+    font-family: IBMPlexMono;
+    color: #060A24;
+  }
+  h1 {
+    font-size: 64px;
+    width: 800px;
+    margin-left: 132px;
+    margin-top: 120px;
+    margin-bottom: 0;
+  }
+  .span2 {
+    color: #0000EC;
+  }
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .p1 {
+    margin-left: 132px;
+    width: 628px;
+  }
+  .boton1 {
+    margin-left: 132px;
+    margin-top: 56px;
+    margin-bottom: 5px;
+  }
+  .podcast {
+    display: flex;
+  }
+}
+/*# sourceMappingURL=styles.min.css.map */

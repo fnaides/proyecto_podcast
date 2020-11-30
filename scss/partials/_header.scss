@@ -1,0 +1,22 @@
+.logo {
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navegacion li {
+    list-style: none;
+    height: 28px;
+    padding: 12px;
+    background-color: #0000EC;
+}
+
+.navegacion a {
+    font-family: $fuente-secundaria;
+    font-size: 16px;
+    color: $color-secundario;
+    letter-spacing: 0;
+    line-height: 28px;
+}

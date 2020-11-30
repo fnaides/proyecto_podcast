@@ -1,0 +1,28 @@
+@mixin boton {
+    background-color: #00F3BB;
+    width: 288px;
+    height: 48px;
+    /*margin-left: 16px;
+    margin-right: 16px;*/
+    margin: auto;
+}
+
+@mixin  botona {
+    display: block;
+    font-family: IBMPlexMono-Medium;
+    font-size: 16px;
+    background-color: #00F3BB;
+    color: $color-primario;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    transition: background-color .5s;
+    transition: color .5s;
+}
+
+@mixin botonhover {
+    background-color:#0000FE;
+    color: $color-secundario;
+}
+

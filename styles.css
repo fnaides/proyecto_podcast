@@ -1,0 +1,46 @@
+/*.header {
+    max-width: 100%;
+    width: 1440px;
+    height: 80px;
+    color: #FFFFFF 100%;
+    opacity: 100%;
+}
+*/
+
+.logo1 {
+    width: 720px;
+    display: inline-block;
+
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
+    padding: 22px 584px 22px 100px;
+    display: inline-block;
+}
+
+.navegacion {
+    width: 720px;
+    font-family: monospace;
+    font-size: 16px;
+    display: inline-block;
+    padding: 26px 100px 26px 204px;
+}
+
+.navegacion li {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    width: 68px;
+    height: 28px;
+    padding: 26px 24px 26px 24px;
+}
+
+.navegacion a {
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-decoration: none;
+}

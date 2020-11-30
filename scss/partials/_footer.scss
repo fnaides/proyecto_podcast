@@ -1,0 +1,8 @@
+footer h3 {
+    @extend %texto-centro;
+    font-family: $fuente-secundaria;
+    font-size: 14px;
+    color: $color-primario 100%;
+    letter-spacing: 0;
+    line-height: 22px;
+}

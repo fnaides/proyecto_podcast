@@ -1,0 +1,45 @@
+.cont {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 320px;
+}
+
+h1{
+    font-family: $fuente-primaria;
+    font-size: 36px;
+    color: $color-primario;
+    letter-spacing: 0;
+    line-height: 42px;
+    display: inline-block;
+    margin-left: 16px;
+    margin-top: 29px;
+    margin-bottom: 16px;
+    width: 250px;
+    height: 84px;
+}
+
+h2 {
+    font-family: $fuente-primaria;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 42px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+p {
+    font-family: $fuente-secundaria;
+    font-size: 14px;
+    color: $color-primario;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: auto;
+    width: 288px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+

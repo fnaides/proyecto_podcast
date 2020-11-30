@@ -1,0 +1,126 @@
+.seccion2 h2 {
+    margin-bottom: 21px;
+}
+
+.podcast {
+    display: block;
+    margin: 11px;
+    width: 94%;
+}
+
+.foto3 {
+    display: block;
+    margin-top: -95.5px;
+    margin-bottom: 27px;
+    z-index: 3;
+    max-width: 100%;
+    width: 360px;
+    height: 519px;
+}
+
+.foto4 {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 320px;
+    height: 243px;
+}
+
+.foto5 {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 104px;
+    height: 104px;
+    margin-top: 49px;
+    margin-bottom: 13px;
+}
+
+#soporte5 {
+    font-family: IBMPlexSans-SemiBold;
+    font-size: 24px;
+    color: $color-primario;
+    letter-spacing: 0;
+    @extend %texto-centro;
+}
+
+.boton1 {
+    @include boton;
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+
+.boton1 a {
+    @include botona;
+    padding-right: 96px;
+    padding-left: 96px;
+}
+
+.boton1 a:hover {
+    @include botonhover;
+}
+
+.boton2 {
+    @include boton;
+    margin-top: 0;
+    margin-bottom: 67px;
+}
+
+.boton2 a {
+    @include botona;
+    padding-right: 43px;
+    padding-left: 43px;
+}
+
+.boton2 a:hover {
+    @include botonhover;
+}
+
+.span1 {
+    text-decoration: line-through;
+}
+
+.diago h2 {
+    color: $color-secundario;
+    margin-top: 64px;
+    margin-bottom: 10px;
+}
+
+.diago {
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+    background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    height: 1203.5px;
+    position: relative;
+    z-index: -1;
+    }
+
+.seccion3 h2 {
+    margin-bottom: 8px;
+}
+
+.seccion4 h2 {
+    margin-top: 54px;
+    margin-bottom: 14px;
+}
+
+.seccion5 h2 {
+    margin-top: 48px;
+    margin-bottom: -12px;
+}
+
+.diago1 h2 {
+    color: $color-secundario;
+    margin-top: 64px;
+    margin-bottom: 36px;
+    margin-left: 16px;
+    margin-right: 16px;
+    @extend %texto-centro;
+}
+
+.diago1 {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    height: 341px;
+    margin-top: 42px;
+}
+

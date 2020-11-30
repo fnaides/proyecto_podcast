@@ -1,0 +1,15 @@
+.navegacion li {
+  list-style: none;
+  height: 28px;
+  padding: 12px;
+  background-color: #0000EC;
+}
+
+.navegacion a {
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+/*# sourceMappingURL=header.min.css.map */
