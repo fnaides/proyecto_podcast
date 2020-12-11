@@ -1,8 +1,27 @@
 footer h3 {
     @extend %texto-centro;
     font-family: $fuente-secundaria;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: $color-primario 100%;
     letter-spacing: 0;
     line-height: 22px;
+}
+
+.iconos {
+    text-align: center;
+    margin-left: 9.4%;
+    margin-right: 9.4%;
+    margin-top: 16px;
+    margin-bottom: 31px;
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    padding: 14px;
+}
+
+footer a {
+    color: black;
 }

@@ -22,7 +22,7 @@
 }
 
 @mixin botonhover {
-    background-color:#0000FE;
+    background-image: linear-gradient(to right,#00F0B8, #0000FE);
     color: $color-secundario;
 }
 

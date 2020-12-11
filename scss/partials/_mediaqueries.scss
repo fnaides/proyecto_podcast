@@ -2,8 +2,14 @@
     header {
         display: flex;
         width: 100%;
+        #checkbox {
+            display: none;
+        }
+        .navegacion span {
+            display: none;
+        }
         .logo1 {
-            margin-left: 66px;
+            margin-left: 6.9%;
             margin-top: 22px;
             margin-bottom: 22px;
             width: 10%;
@@ -13,13 +19,18 @@
             height: 36px;
         }
         .navegacion {
-            /*margin-left: 465px;*/
-            margin-right: 66px;
-            margin-top: 26px;
-            margin-bottom: 26px;
+            margin-right: 6.9%;
             width: 90%;
             display: flex;
+            flex-direction: row;
             justify-content: flex-end;
+            transition: none;
+            opacity: 1;
+        }
+        .navegacion ul {
+            position: static;
+            opacity: 1;
+            width: auto;
         }
         .navegacion li {
             background-color: #FFFFFF;
@@ -28,14 +39,23 @@
             padding-left: 24px;
         }
         .navegacion a {
+            display: inline;
             font-family: $fuente-secundaria;
             color: $color-primario;
         }
+        .navegacion a:hover {
+            color: #00F3BB ;
+            text-decoration: line-through;
+        }
+        .navegacion a:active {
+            color: rgba(6,10,36,0.56) ;
+            text-decoration: line-through;
+        }
     }
     h1 {
-        font-size: 64px;
-        width: 800px;
-        margin-left: 132px;
+        font-size: 4rem;
+        width: 100%;
+        margin-left: 13.8%;
         margin-top: 120px;
         margin-bottom: 0;
     }
@@ -43,21 +63,113 @@
         color: #0000EC ;
     }
     p {
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 24px;
     }
     .p1 {
-        margin-left: 132px;
+        margin-left: 13.8%;
         width: 628px;
     }
     .boton1 {
-        margin-left: 132px;
+        margin-left: 13.8%;
         margin-top: 56px;
         margin-bottom: 5px;
     }
-    .podcast {
-        display: flex;
+    h2 {
+        font-size: 3rem;
+        margin-left: 13.8%;
     }
-
+    .diago h2 {
+        margin-top: 186px;
+        margin-bottom: 26px;
+    }
+    .diago {
+        height: 741px;
+        }
+    .iframes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .podcast {
+        width: 41%;
+        height: 30%;
+    }
+    .seccion3 {
+        display: flex;
+        max-width: 100%;
+        margin-bottom: 45px;
+    }
+    .soporte31 {
+        width: 46%;
+    }
+    .soporte32 {
+        width: 54%;
+    }
+    .foto3 {
+        margin-top: -120px;
+    }
+    .seccion3 h2 {
+        /*width: 55%;*/
+        margin-left: 0;
+        margin-right: 22.3%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .seccion3 p {
+        /*margin-left: 45px;*/
+        margin-left: 0;
+        margin-right: 17.8%;
+        width: 60%;
+    }
+    .seccion4 h2 {
+        margin-top: 0;
+        margin-bottom: 26px;
+    }
+    .soporte4 {
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: 50% 50%;
+    }
+    .seccion5 h2 {
+        margin-top: 45px;
+        margin-left: 13.8%;
+        margin-bottom: 45px;
+    }
+    #soporte5 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 13.75%;
+        margin-right: 13.75%;
+    }
+    .div5 {
+        width: 40%;
+    }
+    .seccion6 h2 {
+        margin-top: 161px;
+    }
+    .diago1 {
+        height: 368px;
+        }
+    footer {
+        display: flex;
+        width: 100%;
+        vertical-align: middle;
+        h3 {
+            font-size: 1rem;
+            margin-left: 6.9%;
+            margin-top: 26px;
+            margin-bottom: 21px;
+            width: 35%;
+            height: 28px;
+        }
+        .iconos {
+            display: flex;
+            justify-content: flex-end;
+            width: 65%;
+            margin-right: 6.9%;
+        }
+    }
 }
 
